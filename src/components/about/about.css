@@ -1,0 +1,164 @@
+
+
+.a {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #1F1301;
+    background: whitesmoke
+  }
+  
+  .a-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+   
+  }
+  
+  .a-right {
+    flex: 1;
+  }
+  
+  .a-card.bg {
+    
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #377DFF;
+
+  }
+  
+  .a-card {
+    width: 65%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .a-img {
+    width: 900px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .a-award-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+  }
+  
+  .a-title {
+
+font-family: Nunito;
+
+
+  }
+.a-sub-title{
+   color: #377DFF;
+font-family: Nunito;
+    
+}
+.hero_btn_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero_btn {
+    text-decoration: none;
+    font-family:Nunito;
+    border:1px solid #377DFF;
+    padding: 9px;
+    color: #377DFF;
+    border-radius: 8px;
+
+   margin-right: 50px;
+
+}
+.hero_btn2 {
+    text-decoration: none;
+    font-family:Nunito;
+    border:1px solid #377DFF;
+    padding: 9px;
+    color: #377DFF;
+    border-radius: 8px;
+
+   margin-right: 50px;
+
+}
+
+
+  
+  .a-sub {
+    margin: 20px 0px 30px ;
+    color: #1F1301;
+    margin-right: 20px;
+    font-family: Nunito;
+  }
+  
+  .a-desc{
+      font-weight: 300;
+      color: whitesmoke;
+  }
+ 
+
+
+
+
+@media screen and(max-width:480px){
+  .a{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+ 
+  }
+  .a-left{
+    width: 100%;
+  }
+  .a-card{
+     height: 30vh;
+  }
+  .a-card.bg{
+    display: none;
+  }
+
+  .a-right{
+    padding: 20px;
+  }
+  
+}
+  
+  
+  
+ 
+  
+  
+  
+  @media screen and (max-width:480px) {
+      .a{
+        flex-direction: column;
+        text-align: center;
+       
+      
+      }
+  
+      .a-left {
+      width: 100%;
+     
+      }
+  
+      .a-card {
+        height: 30vh;
+      }
+  
+      .a-card.bg, .a-award {
+        display: none;
+      }
+  
+      .a-right{
+        padding: 20px;
+      }
+  }
