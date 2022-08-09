@@ -1,11 +1,14 @@
 import React from 'react'
-import {useState} from 'react'
+import "./nav.css";
+
 
 const Nav = () => {
-    const [activeNav, setActiveNav] = useState('')
-    return (
-        <h1>hello world</h1>
-    )
-  }
-  
-  export default Nav
+  return (
+    <div className='n'>
+        <h1>Nav</h1>
+
+    </div>
+  )
+}
+
+export default Nav
