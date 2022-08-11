@@ -1,5 +1,6 @@
 import "./about.css";
 import Team from "../../img/team.jpg"
+import React from 'react'
 
 
 
