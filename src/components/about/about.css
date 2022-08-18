@@ -28,12 +28,12 @@
     top: 50px;
     left: 50px;
     background-color: #377DFF;
-
+display: none;
   }
   
   .a-card {
-    width: 65%;
-    height: 70vh;
+    width: 85%;
+    height: 60vh;
     border-radius: 30px;
     position: relative;
     overflow: hidden;
@@ -86,7 +86,7 @@ font-family: Nunito;
     color: #377DFF;
     border-radius: 8px;
 
-   margin-right: 50px;
+   margin-right: 60px;
 
 }
 
