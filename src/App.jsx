@@ -6,19 +6,17 @@ import OurPortfolio from './components/ourportfolio/OurPortfolio';
 import OurServices from './components/ourservices/OurServices';
 import Testimonial from './components/testimonial/Testimonial';
 
-<script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
-
 const App = () => {
     return (
       <>
-      <div className='overflow-x-hidden'>
+      <div className='container mx-auto px-4'>
       <Nav />
       <Header />
         <About />
         <OurServices />
         <OurPortfolio />
         <Testimonial />
-   </div>
+      </div>
       </>
     );
   }
