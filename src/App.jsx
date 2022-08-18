@@ -4,6 +4,9 @@ import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import OurPortfolio from './components/ourportfolio/OurPortfolio';
 import OurServices from './components/ourservices/OurServices';
+import Testimonial from './components/testimonial/Testimonial';
+
+<script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
 
 const App = () => {
     return (
@@ -14,6 +17,7 @@ const App = () => {
         <About />
         <OurServices />
         <OurPortfolio />
+        <Testimonial />
    </div>
       </>
     );
