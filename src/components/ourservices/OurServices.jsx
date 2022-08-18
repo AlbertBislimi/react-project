@@ -20,7 +20,7 @@ const OurServices = () => {
 
         <div id='cards' class="flex flex-wrap w-10/12 h-4/5  justify-between gap-8 mt-20 overflow-hidden">
 
-      <a href="#" class="block p-6 w-64 h-64  bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      <a href="/#" class="block p-6 w-64 h-64  bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       <img
             src={PC}
             alt=""
@@ -28,10 +28,9 @@ const OurServices = () => {
           />
     <h5 class="mb-2 mx-8 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Social Media
 Management</h5>
-
-    
 </a>
-<a href="#" class="block p-6 w-64 h-64 bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+<a href="/#" class="block p-6 w-64 h-64 bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 <img
             src={Sony}
             alt=""
@@ -41,7 +40,7 @@ Management</h5>
 Opimization</h5>
     
 </a>
-<a href="#" class="block p-6 w-64 h-64  bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<a href="/#" class="block p-6 w-64 h-64  bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="50" cy="50" r="50" fill="#377DFF"/>
 </svg>
@@ -49,7 +48,7 @@ Opimization</h5>
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Design</h5>
     
 </a>
-<a href="#" class="block p-6 w-64 h-64  bg-white rounded-3xl content-center border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<a href="/#" class="block p-6 w-64 h-64  bg-white rounded-3xl content-center border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ads</h5>
     
 </a>
