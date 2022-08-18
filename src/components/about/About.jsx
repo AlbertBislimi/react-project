@@ -28,8 +28,8 @@ const About = () => {
         We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business
         </p>
         <div id="hero_btn_container">
-                        <a href="#" class="hero_btn">About Us</a>
-                        <a href="#" class="hero_btn2">Our Story</a>
+                        <a href="/#" class="hero_btn">About Us</a>
+                        <a href="/#" class="hero_btn2">Our Story</a>
                     </div>
     </div>
     
