@@ -1,10 +1,6 @@
 import "./about.css";
-import Team from "../../img/team.jpg"
 import React from 'react'
-
-
-
-
+import Aboutus from '../../assets/Aboutus.png'
 
 
 const About = () => {
@@ -14,7 +10,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div class="w-10/12 h-auto rounded-3xl relative overflow-hidden">
           <img
-            src={Team}
+            src={Aboutus}
             alt=""
             class="w-auto object-cover"
           />
@@ -30,14 +26,12 @@ const About = () => {
         </p>
         <div id="hero_btn_container">
  
-        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-8 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">About Us</button>
-        <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">Our Services</button>
+          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-8 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">About Us</button>
+          <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">Our Services</button>
                         
-                    </div>
+        </div>
+      </div>
     </div>
-    
-    
-       </div>
     
   );
 };
