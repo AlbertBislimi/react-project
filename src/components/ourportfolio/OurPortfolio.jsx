@@ -19,7 +19,7 @@ const Portfolio = () => {
           <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16 px-4 pt-10 sm:pt-10 text-black'>
             <div className='relative p-5'>
               <img src={portfolio} className="items-center w-full" alt="" />
-              <h1 class="absolute text-xl font-medium text-white bottom-8 left-8">Design Byte App</h1>
+              <h1 className="absolute text-xl font-medium text-white bottom-8 left-8">Design Byte App</h1>
             </div> 
             <div className='relative'>
               <img src={portfolio1} className="items-center w-full" alt="" />
@@ -27,11 +27,11 @@ const Portfolio = () => {
             </div> 
             <div className='relative p-5'>
               <img src={portfolio2} className="items-center w-full" alt="" />
-              <h1 class="absolute text-xl font-medium text-white bottom-8 left-8">Design Furniture App</h1>
+              <h1 className="absolute text-xl font-medium text-white bottom-8 left-8">Design Furniture App</h1>
             </div>   
           </div>
           <div className='px-4 py-12 text-center'>
-            <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">See All Portfolio</button>
+            <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">See All Portfolio</button>
           </div>
       </div>
   </div>

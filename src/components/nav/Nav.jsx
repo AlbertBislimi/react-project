@@ -1,5 +1,4 @@
 import React from 'react'
-import "./nav.css";
 import LOGO from '../../assets/logo.png'
 
 

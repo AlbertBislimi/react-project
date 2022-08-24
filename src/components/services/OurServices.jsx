@@ -1,5 +1,4 @@
 import React from 'react'
-
 import social from '../../assets/social.png'
 import engine from '../../assets/engine.png'
 import design from '../../assets/design.png'
