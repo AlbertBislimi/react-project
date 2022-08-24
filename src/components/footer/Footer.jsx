@@ -62,7 +62,7 @@ const Footer = () => {
                                 <p className="hover:underline">Jakarta, Indonesia</p>
                             </li>
                             <li>
-                                <p className="hover:underline">team@OsirisRealEstate.com</p>
+                                <p className="hover:underline">team@Osiris.com</p>
                             </li>
                         </ul>
                     </div>
