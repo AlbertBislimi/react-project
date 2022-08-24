@@ -8,17 +8,17 @@ const OurServices = () => {
   return (
 
     <div className="lg:flex lg:h-screen lg:bg-white " id='o'>
-      <div className=" mt-10 lg:flex lg:flex-1 lg:items-center lg:justify-center" id='left'>
-        <div id='left-wrapper' className="text-center lg:flex lg:w-3/5 lg:h-4/5 lg:p-100px lg:flex-col lg:justify-center lg:gap-y-6">
-          <h3 className="text-2xl mb-2 lg:text-left lg:text-3xl lg:font-light text-blue-600">Our Services</h3>
-          <h1 className=" text-2xl  mb-6 lg:text-left lg:text-6xl">Perfect and fast Movement</h1>
-          <p className='lg:text-left  mb-4 text-gray-500'>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</p>
-          <button type="button" className="mb-20 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 w-32">Read More...</button>
+      <div className="lg:flex lg:flex-1 lg:items-center lg:justify-center" id='left'>
+        <div id='left-wrapper' className="text-center py-8 px-4 mx-auto max-w-screen-xl lg:flex lg:w-3/5 lg:h-4/5 lg:p-100px lg:flex-col lg:justify-center lg:gap-y-6">
+          <h2 className="text-xl pt-8 mb-2 lg:text-left lg:text-3xl lg:font-light text-blue-600">Our Services</h2>
+          <h1 className="text-2xl mb-6 lg:text-left lg:text-6xl">Perfect and fast Movement</h1>
+          <p className='lg:text-left mb-4 text-gray-500'>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</p>
+          <button type="button" className="inline-flex justify-end font-medium text-blue-600 dark:text-blue-500 hover:underline">Read More<svg aria-hidden="true" class="ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
         </div>
       </div>
 
-      <div className=" lg:flex-1 lg:relative" id='right'>
-        <div id='cards' className="flex flex-wrap items-center justify-center md:gap-x-6 xl:overflow-hidden  lg:flex lg:flex-wrap md:overflow-scroll lg:w-10/12 lg:h-4/5  lg:justify-between lg:gap-8 lg:mt-20 ">
+      <div className="lg:flex-1 lg:relative">
+        <div id='cards' className="inline-grid grid-cols-2 gap-4 justify-center md:gap-x-6 xl:overflow-hidden md:overflow-scroll lg:mt-20 ">
           <a href="/#" className=" mb-4 block p-6 w-64 h-64  bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <img
             src={social}
@@ -31,8 +31,8 @@ const OurServices = () => {
             <img
               src={engine}
               alt=""
-              className="w-30 mx-14"/>
-              <h5 className="mb-2 mx-6 mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Search Engine Opimization</h5>
+              className="w-32 mx-10"/>
+              <h5 className="mb-2 mx-6 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Search Engine Opimization</h5>
           </a>
 
           <a href="/#" className=" mb-4 block p-6 w-64 h-64  bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">

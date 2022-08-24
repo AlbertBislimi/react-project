@@ -20,7 +20,6 @@ const Cta = () => {
             </div> 
         </div>
       </div>
-  
     </div>
   )
 }
