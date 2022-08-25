@@ -26,7 +26,7 @@ const Testimonial = () => {
                         clickable: true,
                         }}
                         autoplay={{
-                            delay: 3000,
+                            delay: 4200,
                             disableOnInteraction: false,
                         }}
                         breakpoints={{
