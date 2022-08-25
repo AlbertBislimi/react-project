@@ -4,7 +4,7 @@ import Aboutus from '../../assets/Aboutus.png';
 
 const About = () => {
   return (
-  <div  className='w-full mt-10'>
+  <div id="about" className='w-full mt-10'>
 
       <div className='max-w-[1240px] mx-auto relative lg:py-10 lg:px-12 lg:h-50'>
           <div className='mx-auto max-w-screen-xl text-center'>
