@@ -8,6 +8,7 @@ const OurServices = () => {
   return (
 
     <div className="lg:flex lg:h-screen lg:bg-white">
+
       <div className="flex max-w-4xl mx-auto items-center lg:flex-1 lg:items-center lg:justify-center">
         <div className="text-center py-4 px-4 mx-auto lg:flex lg:w-[85%] lg:h-4/5 lg:flex-col lg:justify-center lg:gap-y-6">
           <h3 className="text-xl pt-8 text-xl lg:text-left lg:font-light text-blue-600">Our Services</h3>
@@ -18,7 +19,7 @@ const OurServices = () => {
       </div>
 
       <div className="py-8 flex max-w-4xl mx-auto items-center">
-        <div className="grid grid-cols-1 gap-4 mx-auto sm:grid-cols-2 md:gap-x-8 lg:overflow-hidden lg:mt-20">
+        <div className="grid grid-cols-1 gap-4 pr-4 mx-auto sm:grid-cols-2 md:gap-x-8 lg:overflow-hidden lg:mt-20">
           <a href="/#" className=" mb-4 p-6 w-64 h-64  bg-white rounded-3xl border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <img
             src={social}
