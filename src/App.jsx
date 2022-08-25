@@ -7,10 +7,13 @@ import OurServices from './components/services/OurServices';
 import Testimonial from './components/testimonial/Testimonial';
 import Cta from './components/cta/Cta';
 import Footer from './components/footer/Footer';
+import bg from './assets/bg.png'
 
 const App = () => {
     return (
       <>
+      <div style={{ backgroundImage:`url(${bg})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}>
+  
       <div className='overflow-x-hidden container mx-auto px-4'>
       <Nav />
       <Header />
@@ -19,6 +22,7 @@ const App = () => {
         <OurPortfolio />
         <Testimonial />
         <Cta />
+      </div>
       </div>
       <Footer />
       </>

@@ -7,6 +7,9 @@ module.exports = {
     fontFamily: {
       nunito: ["Nunito", "sans-serif"]
     },
+    backgroundImage: {
+      'bg-image': "url('../src/assets/bg.png')",
+    },
 
     extend: {},
   },
