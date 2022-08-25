@@ -9,3 +9,12 @@
         font-family: Nunito;
     }
 }
+
+h1 {
+    font-size: 40px !important;
+}
+
+p {
+    font-weight: 300 !important;
+    font-size: 16px !important;
+}

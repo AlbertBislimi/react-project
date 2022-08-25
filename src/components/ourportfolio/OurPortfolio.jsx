@@ -19,15 +19,15 @@ const Portfolio = () => {
           <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16 px-4 pt-10 sm:pt-10 text-black'>
             <div className='relative p-5'>
               <img src={portfolio} className="items-center w-full" alt="" />
-              <h1 className="absolute text-xl font-medium text-white bottom-8 left-8">Design Byte App</h1>
+              <h2 className="absolute text-xl font-medium text-white bottom-8 left-8">Design Byte App</h2>
             </div> 
             <div className='relative'>
               <img src={portfolio1} className="items-center w-full" alt="" />
-              <h1 class="absolute text-xl font-medium text-white bottom-8 left-8">Cloud App</h1>
+              <h2 class="absolute text-xl font-medium text-white bottom-8 left-8">Cloud App</h2>
             </div> 
             <div className='relative p-5'>
               <img src={portfolio2} className="items-center w-full" alt="" />
-              <h1 className="absolute text-xl font-medium text-white bottom-8 left-8">Design Furniture App</h1>
+              <h2 className="absolute text-xl font-medium text-white bottom-8 left-8">Design Furniture App</h2>
             </div>   
           </div>
           <div className='px-4 py-12 text-center'>
