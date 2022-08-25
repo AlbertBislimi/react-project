@@ -7,7 +7,7 @@ import ads from '../../assets/ads.png'
 const OurServices = () => {
   return (
 
-    <div className="lg:flex lg:h-screen lg:bg-white">
+    <div className="lg:flex lg:bg-white">
 
       <div className="flex max-w-4xl mx-auto items-center lg:flex-1 lg:items-center lg:justify-center">
         <div className="text-center py-4 px-4 mx-auto lg:flex lg:w-[85%] lg:h-4/5 lg:flex-col lg:justify-center lg:gap-y-6">
