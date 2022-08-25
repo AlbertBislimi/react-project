@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/#" className="flex items-center">
             <img src={LOGO} className="mr-3 h-6 sm:h-9" alt="Logo"/>
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Agency Creative</span>
+            <div className="self-center text-xl font-semibold whitespace-nowrap dark:text-white"><span className="w-100 block mb-[-15px] text-[14px] font-[700]">Agency</span><span className="text-[12px] font-[300]">Creative</span></div>
         </a>
         <div className="flex md:order-2">
         <button id="theme-toggle" type="button" className="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
