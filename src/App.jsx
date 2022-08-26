@@ -14,7 +14,7 @@ const App = () => {
       <>
       <div style={{ backgroundImage:`url(${bg})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}>
   
-      <div className='overflow-x-hidden container mx-auto px-4'>
+      {/* <div className='overflow-x-hidden container mx-auto px-4'> */}
       <Nav />
       <Header />
         <About />
@@ -22,7 +22,7 @@ const App = () => {
         <OurPortfolio />
         <Testimonial />
         <Cta />
-      </div>
+      {/* </div> */}
       </div>
       <Footer />
       </>
