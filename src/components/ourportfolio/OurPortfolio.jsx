@@ -7,13 +7,13 @@ import portfolio2 from '../../assets/portfolio2.png'
 
 const Portfolio = () => {
   return (
-  <div name='portfolio' className='w-full mt-10'>
+  <div name='portfolio' className='w-full dark:bg-black'>
 
       <div className='max-w-[1240px] mx-auto relative lg:py-10 lg:px-12'>
           <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
-              <h2 className="text-xl pt-8 text-blue-600 text-center">Our Portfolio</h2>
-              <h3 className='text-3xl font-bold py-2 sm:text-5xl text-black text-center'>What do we do</h3>
-              <p className='text-lg font-normal pt-4 text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400'>all projects that we have already done, proven can help to use more comfortable, then can used by client from our business.</p>
+              <h2 className="text-xl pt-8 text-blue-600 text-center dark:text-white">Our Portfolio</h2>
+              <h3 className='text-3xl font-bold py-2 sm:text-5xl text-black text-center dark:text-white'>What do we do</h3>
+              <p className='text-lg font-normal pt-4 text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-white'>all projects that we have already done, proven can help to use more comfortable, then can used by client from our business.</p>
           </div>
 
           <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16 px-4 pt-10 sm:pt-10 text-black'>
