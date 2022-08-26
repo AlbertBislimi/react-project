@@ -4,7 +4,7 @@ import people from '../../assets/people.png'
 const Cta = () => {
   return (
 
-    <div id="contact" className="lg:flex lg:bg-white ">
+    <div id="contact" className="lg:flex pb-8 lg:bg-white ">
       <div className=" mt-10 lg:flex lg:flex-1 lg:items-center lg:justify-center">
         <div className="text-center lg:flex lg:w-3/5 lg:h-4/5 lg:p-100px lg:flex-col lg:justify-center lg:gap-y-6">
           <h2 className=" text-2xl font-bold mb-4 lg:text-left lg:text-6xl">Interesting Collaboration With Us?</h2>
