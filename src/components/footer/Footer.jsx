@@ -12,12 +12,12 @@ const Footer = () => {
 				<div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
 					<img src={LOGO} alt="Logo" />
 				</div>
-				<span className="self-center text-2xl font-semibold">Agency Creative</span>
+				<span className="self-center text-2xl font-bold">Agency Creative</span>
 			</a>
 		</div>
 		<div className="grid grid-cols-2 px-4 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
 			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase dark:text-gray-50">Product</h3>
+				<h3 className="tracking-wide font-bold uppercase dark:text-gray-50">Product</h3>
 				<ul className="space-y-1">
 					<li>
 						<a rel="noopener noreferrer" href="#/">Features</a>
@@ -34,7 +34,7 @@ const Footer = () => {
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase dark:text-gray-50">Company</h3>
+				<h3 className="tracking-wide uppercase font-bold dark:text-gray-50">Company</h3>
 				<ul className="space-y-1">
 					<li>
 						<a rel="noopener noreferrer" href="/#">Privacy</a>
@@ -45,7 +45,7 @@ const Footer = () => {
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<h3 className="uppercase dark:text-gray-50">Developers</h3>
+				<h3 className="uppercase font-bold dark:text-gray-50">Developers</h3>
 				<ul className="space-y-1">
 					<li>
 						<a rel="noopener noreferrer" href="/#">Public API</a>
@@ -59,7 +59,7 @@ const Footer = () => {
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<div className="uppercase dark:text-gray-50">Social media</div>
+				<div className="uppercase font-extrabold dark:text-gray-50">Social media</div>
 				<div className="flex justify-start space-x-3">
 					<a rel="noopener noreferrer" href="/#" title="Facebook" className="flex items-center p-1">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-5 h-5 fill-current">
