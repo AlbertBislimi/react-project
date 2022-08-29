@@ -17,6 +17,7 @@ const About = () => {
               <div className="text-center mx-auto max-w-screen-xl lg:flex lg:mt-5 lg:p-100px lg:flex-col lg:justify-center lg:gap-y-6 px-5">
                 <p className='lg:text-left mb-2 text-left	text-gray-500 dark:text-white'>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business.<br/><br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu neque tempor at ut auctor maecenas,Lorem ipsum d</p>
                 <div className="flex justify-center"> 
+                  <button type="button" className="mb-10 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none dark:bg-white dark:text-black dark:hover:bg-gray-200 font-medium rounded-full text-sm px-5 py-2.5 text-center mt-5 w-[50%] lg:w-40">About Us</button>
                   {/*<button type="button" className="mb-20 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-noneext-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 w-40"><div className="flex"><span><img src={playcircle} alt="play" className="mr-[4px]" /></span><span>Our Teammate</span></div></button>*/}
                 </div> 
               </div>
