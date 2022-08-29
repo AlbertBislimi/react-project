@@ -9,7 +9,7 @@ const Footer = () => {
 	<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/3">
 			<a rel="noopener noreferrer" href="/#" className="flex justify-center space-x-3 lg:justify-start">
-				<div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
+				<div className="flex items-center justify-center w-12 h-12 rounded-full">
 					<img src={LOGO} alt="Logo" />
 				</div>
 				<span className="self-center text-2xl font-bold">Agency Creative</span>
