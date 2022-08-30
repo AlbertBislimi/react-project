@@ -1,38 +1,50 @@
-import React from 'react';
-import Aboutus from '../../assets/Aboutus.png';
-
+import React from "react";
+import Aboutus from "../../assets/Aboutus.png";
 
 const About = () => {
   return (
-  <div id="about" className='w-full flex flex-col items-start gap-[50px] mt-[100px] dark:bg-black'>
+    <div
+      id="about"
+      className="mt-[100px]"
+    >
+      <div className="pb-10 mx-auto lg:relative justify-center items-center	gap-[10px]">
+        <h2 className="text-[16px] order-0 text-blue-600 text-center dark:text-white">
+          About Us
+        </h2>
+        <h3 className="text-[28px] font-bold sm:text-5xl text-black text-center dark:text-white">
+          Our Teammate
+        </h3>
+      </div>
 
-      {/* <div className='mx-auto relative lg:py-10 lg:px-12 lg:h-50'> */}
-          <div className='mx-auto flex flex-col justify-center gap-[10px] items-center text-center'>
-              <h2 className="text-[16px] text-blue-600 text-center dark:text-white">About Us</h2>
-              <h3 className='text-[28px] font-bold sm:text-5xl text-black text-center dark:text-white'>Our Teammate</h3>
+      <div
+        id="about"
+        className="lg:flex lg:flex-row-reverse align-middle flex flex-col items-start gap-[50px] dark:bg-black"
+      >
+        <div className="m-auto">
+          <div className="lg:text-[18px] text-[14px] lg:leading-[28px] leading-[24px]">
+            <p className="font-[400] text-left	text-gray-500 dark:text-white">
+              We move with make a Creative Strategy for help your business goal,
+              we help to improve your income by a services we have. make your
+              content look interesting and make people look for your business.
+            </p>
+            <p className="pt-5 font-[400] text-left	text-gray-500 dark:text-white">
+              We move with make a Creative Strategy for help your business goal,
+              we help to improve your income by a services we have. make your
+              content look interesting and make people look for your business.
+            </p>
           </div>
-
-          <div className="lg:flex flex-row-reverse align-middle lg:bg-white lg:mt-5 dark:bg-black">
-            <div className="flex-initial lg:w-[50%] w-full sm:p-[20px] lg:relative">
-              <div className="text-center mx-auto max-w-screen-xl lg:flex lg:mt-5 lg:p-100px lg:flex-col lg:justify-center lg:gap-y-6 px-5">
-                <p className='lg:text-left mb-2 text-left	text-gray-500 dark:text-white'>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business.<br/><br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu neque tempor at ut auctor maecenas,Lorem ipsum d</p>
-                <div className="flex justify-center"> 
-                  <button type="button" className="mb-10 text-white drop-shadow-blue bg-[#377DFF] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-white dark:text-black font-[700] rounded-[24px] text-[14px] px-[35px] py-[10px] text-center mt-5 w-[50%] lg:w-40">About Us</button>
-                  {/*<button type="button" className="mb-20 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-noneext-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 w-40"><div className="flex"><span><img src={playcircle} alt="play" className="mr-[4px]" /></span><span>Our Teammate</span></div></button>*/}
-                </div> 
-              </div>
-            </div>
-            <div className="flex-initial lg:w-[50%] w-full lg:relative">
-              <div className="flex flex-wrap items-center justify-center md:gap-x-6 xl:overflow-hidden lg:flex lg:flex-wrap md:overflow-scroll lg:justify-between lg:gap-8">
-                  <div className='relative'>
-                      <img src={Aboutus} className="items-center w-full" alt="" />
-                  </div> 
-              </div>
-            </div>
-
+          <div>
+            <button
+              type="button"
+              className="text-white drop-shadow-blue bg-[#377DFF] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-white dark:text-black font-[700] rounded-[24px] text-[14px] px-[35px] py-[10px] mt-5"
+            >
+              About Us
+            </button>
           </div>
-      {/* </div> */}
-  </div> 
+        </div>
+        <img src={Aboutus} className="xl:max-w-[100%] lg:max-w-[50%] max-w-[100%] mx-auto" alt="" />
+      </div>
+    </div>
   );
 };
 
