@@ -7,7 +7,7 @@ import DarkMode from '../darkMode/DarkMode';
 const Nav = () => {
   const [colorTheme, setTheme] = DarkMode();
   return (
-      <nav className="bg-white px-6 sm:px-[40px] pt-[50px] dark:bg-black transition duration-500">
+      <nav className="bg-white px-6 sm:px-[40px] pt-[40px] dark:bg-black transition duration-500">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <a href="/#" className="flex items-center">
               <img src={LOGO} className="mr-3 h-6 sm:h-9" alt="Logo"/>
