@@ -14,7 +14,7 @@ const Cta = () => {
       </div>
 
       <div className="m-10 lg:flex-1 lg:relative">
-        <div className="flex flex-wrap items-center justify-center md:gap-x-6 xl:overflow-hidden lg:flex lg:flex-wrap md:overflow-scroll lg:justify-between lg:gap-8 lg:mt-20 ">
+        <div className="flex flex-wrap items-center justify-center md:gap-x-6 xl:overflow-hidden lg:flex lg:flex-wrap lg:justify-between lg:gap-8 lg:mt-20 ">
             <div className='relative'>
                 <img src={people} className="items-center w-full" alt="" />
             </div> 
