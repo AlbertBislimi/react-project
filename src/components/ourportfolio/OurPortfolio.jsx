@@ -10,7 +10,7 @@ const Portfolio = () => {
   <div name='portfolio' className='w-full dark:bg-black'>
 
       <div className='max-w-[1240px] mx-auto relative lg:py-10 lg:px-12'>
-          <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
+          <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16'>
               <h2 className="text-xl pt-8 text-blue-600 text-center dark:text-white">Our Portfolio</h2>
               <h3 className='text-3xl font-bold py-2 sm:text-5xl text-black text-center dark:text-white'>What do we do</h3>
               <p className='text-lg font-normal pt-4 text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-white'>all projects that we have already done, proven can help to use more comfortable, then can used by client from our business.</p>
