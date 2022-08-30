@@ -14,7 +14,7 @@ const App = () => {
       <>
       
   
-      <div className='overflow-x-hidden dark:bg-black container mx-auto px-4'>
+      <div className='overflow-x-hidden dark:bg-black container mx-auto px-[25px] lg:px-[75px]'>
       <div style={{ backgroundImage:`url(${bg})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}>
       <Nav />
       <Header />

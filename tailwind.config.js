@@ -8,7 +8,11 @@ module.exports = {
       nunito: ["Nunito", "sans-serif"]
     },
   
-    extend: {},
+    extend: {
+      dropShadow: {
+        'blue': '0px 4px 8px rgba(55, 125, 255, 0.5)',
+      }
+    },
   },
   plugins: [require('flowbite/plugin')],
 }
