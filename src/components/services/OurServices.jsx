@@ -10,7 +10,8 @@ const OurServices = () => {
     <div id="services" className="lg:flex pt-[100px] lg:bg-white dark:bg-black">
 
       <div className="flex mx-auto items-center lg:flex-1 lg:items-center lg:justify-center">
-        <div className="text-center flex-col justify-center py-4 px-4 mx-auto lg:flex lg:w-[85%] lg:h-4/5 lg:flex-col lg:justify-center lg:gap-y-6">
+
+        <div className="text-center flex-col justify-center items-center py-4 mx-auto lg:flex lg:w-[85%] lg:h-4/5 lg:flex-col lg:justify-center lg:gap-y-6">
           <h3 className="text-[16px] lg:text-[24px] lg:font-[600] font-[600] lg:text-left text-blue-600 dark:text-white">Our Services</h3>
           <h2 className="text-[27px] font-[700] leading-[33px] pt-[10px] lg:text-left xl:text-6xl sm:text-5xl text-black dark:text-white">Perfect and fast Movement</h2>
           <p className='text-[20px] font-[400] leading-[24px] pt-[34px] lg:text-left mb-4 text-gray-500 dark:text-white'>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</p>

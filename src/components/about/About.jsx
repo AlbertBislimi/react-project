@@ -8,7 +8,7 @@ const About = () => {
       className="mt-[100px]"
     >
       <div className="pb-10 mx-auto lg:relative justify-center items-center	gap-[10px]">
-        <h2 className="text-[16px] order-0 text-blue-600 text-center dark:text-white">
+        <h2 className="text-[16px] lg:text-[24px] order-0 text-blue-600 text-center dark:text-white">
           About Us
         </h2>
         <h3 className="text-[28px] font-bold sm:text-5xl text-black text-center dark:text-white">
@@ -33,11 +33,8 @@ const About = () => {
               content look interesting and make people look for your business.
             </p>
           </div>
-          <div>
-            <button
-              type="button"
-              className="text-white drop-shadow-blue bg-[#377DFF] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-white dark:text-black font-[700] rounded-[24px] text-[14px] px-[35px] py-[10px] mt-5"
-            >
+          <div className="flex justify-center lg:justify-start">
+            <button type="button" className="text-white drop-shadow-blue bg-[#377DFF] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-white dark:text-black font-[700] rounded-[24px] text-[14px] px-[35px] py-[10px] mt-5">
               About Us
             </button>
           </div>

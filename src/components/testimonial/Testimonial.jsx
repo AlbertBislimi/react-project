@@ -11,11 +11,11 @@ import { Autoplay, Pagination } from "swiper";
 
 const Testimonial = () => {
   return (
-    <div className='w-full dark:bg-black'>
-        <div className='max-w-[1240px] mx-auto relative lg:py-10 lg:px-12'>
-            <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
-                <h2 className="text-xl pt-8 text-blue-600 text-center dark:text-white">Testimonial</h2>
-                <h3 className='text-3xl font-bold py-2 sm:text-5xl text-black text-center dark:text-white'>People Talk about us</h3>
+    <div className='w-full mt-[100px] dark:bg-black'>
+        <div className='max-w-[1240px] mx-auto relative '>
+            <div className=' px-4 mx-auto max-w-screen-xl text-center '>
+                <h3 className="text-xl pt-8 text-blue-600 text-center dark:text-white">Testimonial</h3>
+                <h2 className='text-3xl mb-[50px] font-bold py-2 sm:text-[40px] text-black text-center dark:text-white'>People Talk about us</h2>
             </div>
 
             <Swiper className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16 px-4 py-12 sm:pt-10 text-black'
