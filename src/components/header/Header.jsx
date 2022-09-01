@@ -4,7 +4,7 @@ import Frame from '../../assets/Frame.png'
 
 const Header = () => {
   return (
-    <div id="home" className="pt-[68px] px-4 mx-auto text-center dark:bg-black">
+    <div id="home" className="pt-[68px] mx-auto text-center dark:bg-black">
       <div className="">
         <h1 className="mb-4 text-[28px] font-extrabold leading-[38px] md:text-[40px] md:leading-[40px] lg:text-[60px] lg:leading-[64px] text-gray-900 dark:text-white">Make your dream <br/>
             business goal come true</h1>
