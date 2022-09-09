@@ -11,8 +11,8 @@ const Portfolio = () => {
 
       <div className='max-w-[1240px] mx-auto relative'>
           <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16'>
-              <h3 className="text-xl pt-8 text-blue-600 text-center dark:text-white">Our Portfolio</h3>
-              <h2 className='text-3xl font-bold py-2 sm:text-[55px] text-black text-center dark:text-white'>What do we do</h2>
+              <h3 className="text-xl pt-8 text-blue-600 text-center dark:text-white">Our features</h3>
+              <h2 className='text-3xl font-bold py-2 sm:text-[55px] text-black text-center dark:text-white'>Fully Dynamic for every Company</h2>
               <p className='text-[15px] font-normal pt-4 text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-white'>all projects that we have already done, proven can help to use more comfortable, then can used by client from our business.</p>
           </div>
 

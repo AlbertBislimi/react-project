@@ -23,14 +23,10 @@ const About = () => {
         <div className="m-auto">
           <div className="lg:text-[18px] text-[14px] lg:leading-[28px] leading-[24px]">
             <p className="font-[400] text-left	text-gray-500 dark:text-white">
-              We move with make a Creative Strategy for help your business goal,
-              we help to improve your income by a services we have. make your
-              content look interesting and make people look for your business.
+            Our dedicated development team is already hard at work on our Interview Management System. Our core product is a tool used to help to companies interview, manage job candidates, review candidates to find if they are the right fit for the job.
             </p>
             <p className="pt-5 font-[400] text-left	text-gray-500 dark:text-white">
-              We move with make a Creative Strategy for help your business goal,
-              we help to improve your income by a services we have. make your
-              content look interesting and make people look for your business.
+            Our interview management tools focus on convenience. We always provide you with the best support options. The great thing about our tools is that they let you create our self-service support options in minutes.
             </p>
           </div>
           <div className="flex justify-center lg:justify-start">

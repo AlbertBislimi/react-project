@@ -1,6 +1,6 @@
 import React from 'react';
 import { Data } from "./Data"
-import testimonial from '../../assets/testimonial.png'
+import testimonial from '../../assets/Darsej-Rizaj.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -49,7 +49,7 @@ const Testimonial = () => {
                     return (
                         <SwiperSlide className="w-full bg-white rounded-lg border border-gray-50 drop-shadow-xl dark:bg-[#0B0F15] dark:border-gray-800 pt-10" >
                             <div className="flex flex-col items-center pb-8" key={id}>
-                                <img className="mb-3 w-24 h-24 rounded-full shadow-lg" src={testimonial} alt="Bonnie"/>
+                                <img className="mb-3 object-cover w-24 h-24 rounded-full shadow-lg" src={testimonial} alt="Bonnie"/>
                                 <h5 className="mb-1 text-xl font-medium text-blue-500 dark:text-white">{title}</h5>
                                 <span className="text-sm text-gray-500 dark:text-gray-400">{job}</span>
                                 <div className="flex mt-4 space-x-3 md:mt-6">
