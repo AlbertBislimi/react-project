@@ -6,7 +6,7 @@ import OurPortfolio from './components/ourportfolio/OurPortfolio';
 import OurServices from './components/services/OurServices';
 import Testimonial from './components/testimonial/Testimonial';
 import Cta from './components/cta/Cta';
-import Footer from './components/footer/footer';
+import Footer from './components/footer/Footer';
 import bg from './assets/bg.png'
 
 const App = () => {

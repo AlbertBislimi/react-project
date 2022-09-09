@@ -1,7 +1,7 @@
 import React from 'react';
-import portfolio from '../../assets/portfolio.png'
-import portfolio1 from '../../assets/portfolio1.png'
-import portfolio2 from '../../assets/portfolio2.png'
+import portfolio from '../../assets/unknown.png'
+import portfolio1 from '../../assets/unknown1.png'
+import portfolio2 from '../../assets/unknown3.png'
 
 
 
