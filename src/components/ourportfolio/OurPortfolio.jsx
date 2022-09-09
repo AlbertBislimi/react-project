@@ -18,15 +18,15 @@ const Portfolio = () => {
 
           <div className='text-[24px] grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16 px-4 pt-10 sm:pt-10 text-black'>
             <div className='relative p-5'>
-              <img src={portfolio} className="items-center w-full" alt="" />
+              <img src={portfolio} className="items-center w-full rounded-lg" alt="" />
               <h2 className="absolute font-medium text-white bottom-8 left-8">Design Byte App</h2>
             </div> 
             <div className='relative'>
-              <img src={portfolio1} className="items-center w-full" alt="" />
+              <img src={portfolio1} className="items-center w-full rounded-lg" alt="" />
               <h2 className="absolute font-medium text-white bottom-8 left-8">Cloud App</h2>
             </div> 
             <div className='relative p-5'>
-              <img src={portfolio2} className="items-center w-full" alt="" />
+              <img src={portfolio2} className="items-center w-full rounded-lg" alt="" />
               <h2 className="absolute font-medium text-white bottom-8 left-8">Design Furniture App</h2>
             </div>   
           </div>
